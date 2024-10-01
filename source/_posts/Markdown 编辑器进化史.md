@@ -2,12 +2,13 @@
 abbrlink: Markdown_Editor
 categories:
 - - 随笔
+- - 全部
 date: '2024-10-01T21:50:40.180074+08:00'
 tags:
 - Markdown
 - 软件
 title: Markdown 编辑器进化史
-updated: '2024-10-01T21:56:31.082+08:00'
+updated: '2024-10-01T21:58:13.200+08:00'
 use: valine,katex
 ---
 其实我一般用 Markdown 写东西写得很少。
