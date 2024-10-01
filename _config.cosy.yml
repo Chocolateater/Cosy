@@ -12,7 +12,6 @@ category_meta:
 favicon: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none"><path d="M6.087 9.75a5.752 5.752 0 0 1 11.326 0h.087a4 4 0 0 1 0 8H6a4 4 0 0 1 0-8h.087z" fill="currentColor"></path></g></svg>
 # 基佬紫，天下无敌
 color: hsl(238,50%,56%)
-icp: 苏ICP备114514号-x
 motto: "Hello, world!"
 katex:
   jsCdn: //cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js
