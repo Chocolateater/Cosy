@@ -1,16 +1,18 @@
 ---
 about:
-- 蒟蒻 OIer 一枚
+- 蒟蒻 OIer 一枚
 - 偶尔喜欢捣鼓捣鼓网页设计~
 avatar: https://s21.ax1x.com/2024/10/01/pA3UvxP.png
 birth: Jan 21, 1994
 date: ''
 education:
-- school: University School of the Arts
-  time: 2012-2016
+- school: YP Primary School
+  time: 2017.09-2021.06
+- school: LY Middle School
+  time: 2021.09-至今
 email: boxxyt@163.com
 layout: cosy-resume
-location: Nanjing, China
+location: Shanghai, China
 name: Hi, I'm QwQ
 phone: +86 180-xxxx-xxx
 portfolio:
@@ -44,20 +46,17 @@ projectExp:
   - Develop the system server using Nest.js and use it for the microservice system of the project
   name: PC/React • Tavigator Aortic Root/Peripheral
 skill:
-- 熟悉 Node.js 的开关，具备后端复制黏贴能力，能够背诵 SpringBoot、Egg、Koa2 和 Midway 等单个应用程序项目的名称，通晓 MacOS
-  X、Windows、Linux 等操作系统的开关机
-- 熟练掌握 Photoshop、illustrator 等应用程序的安装与卸载，对 DevC++ 等高级（大雾）集成开发环境的用户界面非常熟悉
-- 听说过 Vue、Wordpress、Vercel、Docker、Nginx 等建站工具
-- 完全不会 Github Action
+- 熟悉 Node.js 的开关，具备后端复制黏贴能力，能够背诵 SpringBoot、Egg、Koa2 和 Midway 等单个应用程序项目的名称，通晓 MacOS X、Windows、Linux 等操作系统的开关机
+- 熟练掌握 Photoshop、illustrator 等应用程序的安装与卸载，对 DevC++ 等高级（大雾）集成开发环境的用户界面非常熟悉
+- 听说过 Vue、Wordpress、Vercel、Docker、Nginx 等建站工具
+- 完全不会 Github Action
 social:
 - icon: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-  link: https://github.com/17px
+  link: https://github.com/chocolateater
   name: Github
 title: resume
-updated: '2024-10-01T21:33:39.748+08:00'
+updated: '2024-10-01T21:47:17.655+08:00'
 workExp:
-- inc: Creative Director
-  time: 2021.09 ~ 至今
-- inc: Web Designer
-  time: 2021.01 ~ 2021.09
+- inc: Student
+  time: 2017.09 ~ 至今
 ---
