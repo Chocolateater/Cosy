@@ -8,11 +8,9 @@ tags:
 - 代码
 - 图床
 - Github
-title: 图床折腾手记
-updated: '2024-10-01T21:24:38.821+08:00'
+title: Github 图床折腾手记
+updated: '2024-10-01T21:52:15.055+08:00'
 ---
-# Github 图床折腾手记
-
 图床，一个我个人经常使用，但是又没有固定选择的东西。
 
 之前尝试过 [洛谷图床](https://www.luogu.com.cn/image)，[路过图床](https://www.imgse.com)，[SM.MS](https://sm.ms) 等一些国内可以访问且相对知名的图床。
