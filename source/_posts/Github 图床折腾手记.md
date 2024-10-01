@@ -1,8 +1,8 @@
 ---
 abbrlink: PictureHub
-use: valine,katex
 categories:
 - 随笔
+- - 全部
 date: '2024-10-01T21:24:37.748836+08:00'
 tags:
 - 技术
@@ -10,7 +10,8 @@ tags:
 - 图床
 - Github
 title: Github 图床折腾手记
-updated: '2024-10-01T21:52:15.055+08:00'
+updated: '2024-10-01T21:57:58.529+08:00'
+use: valine,katex
 ---
 图床，一个我个人经常使用，但是又没有固定选择的东西。
 
