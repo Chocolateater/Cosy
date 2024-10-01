@@ -1,7 +1,7 @@
 ---
 abbrlink: PictureHub
 categories:
-- - 随笔
+- 随笔
 date: '2024-10-01T21:24:37.748836+08:00'
 tags:
 - 技术
