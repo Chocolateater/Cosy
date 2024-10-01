@@ -3,17 +3,25 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+# 网页标题
+title: 17px blog
+# 侧边栏顶部显示
+subtitle: "Mozzie"
+# 用于SEO的html元描述
+description: ""
+# 用于SEO的html关键字
 keywords:
-author: John Doe
-language: en
+# 文章版权声明显示作者名称
+author: Mozzie
+
+# 在此处设置您的网站url
+url: https://chocolateater.github.io/
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -51,10 +59,14 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+
+
+# v7.0.0
+syntax_highlighter: prismjs
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
+  line_threshold: 0
   tab_replace: ''
 
 # Home page setting
@@ -98,9 +110,28 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cosy
+
+algolia:
+  appId: WGHUVYJXP8
+  apiKey: 6d37f83c821644360ba456297b9400fd
+  adminApiKey: c111060f5851f8fe2e895e04a2810227
+  SearchOnlyAPIKey: 73f3ccbb1e2683b7da3d464098de7cbf
+  chunkSize: 5000
+  indexName: index
+  fields:
+    - content
+    - excerpt:strip
+    - categories
+    - title
+    - permalink
+    - slug
+    - tags
+    - title
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: https://github.com/chocolateater/chocolateater.github.io.git
+  branch: main
