@@ -6,11 +6,9 @@ date: '2024-10-01T21:50:40.180074+08:00'
 tags:
 - Markdown
 - 软件
-title: Markdown_编辑器进化史
-updated: '2024-10-01T21:50:42.545+08:00'
+title: Markdown 编辑器进化史
+updated: '2024-10-01T21:52:37.639+08:00'
 ---
-# Markdown 编辑器进化史
-
 其实我一般用 Markdown 写东西写得很少。
 
 主要是没有写博客的习惯……
