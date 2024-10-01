@@ -6,9 +6,11 @@ avatar: https://s21.ax1x.com/2024/10/01/pA3UvxP.png
 birth: Jan 21, 1994
 date: ''
 education:
-- school: YP Primary School
+- school: YP Primary School
   time: 2017.09-2021.06
-- school: LY Middle School
+- school: '
+
+     LY Middle School'
   time: 2021.09-至今
 email: boxxyt@163.com
 layout: cosy-resume
@@ -55,7 +57,7 @@ social:
   link: https://github.com/chocolateater
   name: Github
 title: resume
-updated: '2024-10-01T21:47:17.655+08:00'
+updated: '2024-10-01T21:57:12.148+08:00'
 workExp:
 - inc: Student
   time: 2017.09 ~ 至今
