@@ -30,6 +30,12 @@ valine:
   cdn: //unpkg.com/valine@latest/dist/Valine.min.js
   # 替换
   serverURLs: https://hfgyb3vo.api.lncldglobal.com
+
+twikoo:
+  envId: https://twikoo-phi-sable.vercel.app
+  cdn: https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js
+  lang: zh-CN
+
 weather:
   enable: false
   # 替换
