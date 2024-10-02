@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Github 图床折腾手记
+  </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="QwQ">
+  <link rel="canonical" href="https://chocolateater.github.io/2024/10/01/Github%20%E5%9B%BE%E5%BA%8A%E6%8A%98%E8%85%BE%E6%89%8B%E8%AE%B0/">
+  
+  
+  <link rel="icon" type="image/svg" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none"><path d="M6.087 9.75a5.752 5.752 0 0 1 11.326 0h.087a4 4 0 0 1 0 8H6a4 4 0 0 1 0-8h.087z" fill="currentColor"></path></g></svg>'>
+  
+  
+  
+<link rel="stylesheet" href="/css/b4c95347.css">
+
+  <script>window.i18n = {"tip-status-done":"完成","tip-status-default":"全部","tip-status-todo":"计划","tip-status-doing":"进行","tip-status-other":"其他","text-select":"选择","text-move":"移动","text-esc":"退出","January":"一月","February":"二月","March":"三月","April":"四月","May":"五月","June":"六月","July":"七月","August":"八月","September":"九月","October":"十月","November":"十一月","December":"十二月"}</script>
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body id="app">
+  <aside id="aside-box" class="left-aside">
+    <div class="header">
+      
+<link rel="stylesheet" href="/css/61875ce9.css">
+
+<div class="profile">
+  <a class="badge" href="/">
+    <span>Hi</span>
+    <span>QwQ</span>
+  </a>
+  <cosy-tooltip id="left-aside-button" placement="right">
+    <span slot="content">
+      <span>显示 / 隐藏 左侧导航</span>
+      <cosy-short-key>[</cosy-short-key>
+    </span>
+    <cosy-icon>
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+        <g fill="none">
+          <path d="M16 4c1.104-.019 2 .896 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h12zm1 2a1 1 0 0 0-1-1h-2.995v10H16a1 1 0 0 0 1-1V6zm-4.995 9V5H4.001a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8.004z" fill="currentColor"></path>
+        </g>
+      </svg>
+    </cosy-icon>
+  </cosy-tooltip>
+</div>
+
+<script src="/js/69622cae.js"></script>
+
+      
+
+
+<cosy-search id="post-search" placeholder="搜索">
+  <div slot="short-key">
+    <cosy-short-key>⌘</cosy-short-key>
+    <cosy-short-key>K</cosy-short-key>
+  </div>
+</cosy-search>
+
+
+<script>
+  window.algolia = {
+    appId: "WGHUVYJXP8",
+    SearchOnlyAPIKey: "73f3ccbb1e2683b7da3d464098de7cbf"
+  }
+</script>
+
+
+<script src="/js/0a6f193b.js"></script>
+
+    </div>
+    <div class="aside-category">
+      
+<link rel="stylesheet" href="/css/db04a759.css">
+
+
+<nav class="category-nav cosy-scrollbar">
+  <ul><li data-path="archives">
+        <a href="/archives">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M3.5 3A1.5 1.5 0 0 0 2 4.5v4A1.5 1.5 0 0 0 3.5 10h9A1.5 1.5 0 0 0 14 8.5v-4A1.5 1.5 0 0 0 12.5 3h-9zM3 4.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-4zm.5 6.5A1.5 1.5 0 0 0 2 12.5v4A1.5 1.5 0 0 0 3.5 18h9a1.5 1.5 0 0 0 1.5-1.5v-4a1.5 1.5 0 0 0-1.5-1.5h-9zM3 12.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-4zm14-.063a2.003 2.003 0 0 1-2.5-1.937A2 2 0 0 1 16 8.563a2.005 2.005 0 0 1 1 0a2 2 0 0 1 0 3.874zM16.5 3a.5.5 0 0 1 .5.5v4.041a3.02 3.02 0 0 0-1 0V3.5a.5.5 0 0 1 .5-.5zm0 10.5c-.17 0-.337-.014-.5-.041V17.5a.5.5 0 0 0 1 0v-4.041c-.163.027-.33.041-.5.041z" fill="currentColor"></path></g></svg>
+          <div class="ellipsis">归档</div>
+        </a>
+      </li><li data-path="cosy-roadmap">
+        <a href="/cosy-roadmap">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M9.384 2a1 1 0 0 0-.966.742L4.616 17H2.5a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1h-2.116L11.582 2.742A1 1 0 0 0 10.616 2H9.384zM5.651 17l.8-3H11.5a.5.5 0 0 0 0-1H6.717l.534-2H10.5a.5.5 0 0 0 0-1H7.517l1.867-7h1.232l3.733 14H5.651z" fill="currentColor"></path></g></svg>
+          <div class="ellipsis">路线图</div>
+        </a>
+      </li><li data-path="cosy-resume">
+        <a href="/cosy-resume">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M8.5 4.498a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0zm1.5-2.5a2.5 2.5 0 0 0-2.43 3.086L5.471 4.15a1.761 1.761 0 0 0-2.317.88c-.4.882-.008 1.917.877 2.31L7 8.662v2.287l-1.877 4.645a1.75 1.75 0 0 0 3.245 1.311l1.556-3.849a.073.073 0 0 1 .028-.038a.086.086 0 0 1 .046-.012c.02 0 .035.005.046.012a.074.074 0 0 1 .028.038l1.555 3.849a1.75 1.75 0 0 0 3.245-1.311L13 10.96V8.662l2.968-1.322a1.74 1.74 0 0 0 .877-2.31a1.761 1.761 0 0 0-2.317-.88l-2.097.934a2.5 2.5 0 0 0-2.43-3.086zM4.065 5.444a.761.761 0 0 1 1-.38l3.918 1.744a2.5 2.5 0 0 0 2.034 0l3.918-1.744a.761.761 0 0 1 1 .38a.739.739 0 0 1-.373.983l-2.969 1.321a1 1 0 0 0-.593.914v2.298a1 1 0 0 0 .073.375l1.872 4.633a.75.75 0 0 1-1.39.562l-1.556-3.849c-.364-.9-1.639-.9-2.003 0l-1.555 3.85a.75.75 0 1 1-1.39-.562l1.876-4.646A1 1 0 0 0 8 10.95V8.662a1 1 0 0 0-.593-.914L4.438 6.427a.739.739 0 0 1-.373-.983z" fill="currentColor"></path></g></svg>
+          <div class="ellipsis">简历</div>
+        </a>
+      </li></ul>
+  <ul><li class="active">
+        <a href="/categories/%E5%85%A8%E9%83%A8/">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M6 5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V5zm1 0v1h6V5H7zM4 4v12a2 2 0 0 0 2 2h9.5a.5.5 0 0 0 0-1H6a1 1 0 0 1-1-1h10a1 1 0 0 0 1-1V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2zm10-1a1 1 0 0 1 1 1v11H5V4a1 1 0 0 1 1-1h8z" fill="currentColor"></path></g></svg>
+          <div class="ellipsis">
+            <span>全部</span>
+          </div>
+        </a>
+      </li><li class="active">
+        <a href="/categories/%E9%9A%8F%E7%AC%94/">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path opacity=".3" d="M14.5 9.5C14.5 6.47 12.03 4 9 4S3.5 6.47 3.5 9.5c0 2.47 1.49 3.89 2.35 4.5h6.3c.86-.61 2.35-2.03 2.35-4.5z" fill="currentColor"></path><path d="M7 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm-2-1h8v-2H5v2zm11.5-9.5c0 3.82-2.66 5.86-3.77 6.5H5.27c-1.11-.64-3.77-2.68-3.77-6.5C1.5 5.36 4.86 2 9 2s7.5 3.36 7.5 7.5zm-2 0C14.5 6.47 12.03 4 9 4S3.5 6.47 3.5 9.5c0 2.47 1.49 3.89 2.35 4.5h6.3c.86-.61 2.35-2.03 2.35-4.5zm6.87-2.13L20 8l1.37.63L22 10l.63-1.37L24 8l-1.37-.63L22 6l-.63 1.37zM19 6l.94-2.06L22 3l-2.06-.94L19 0l-.94 2.06L16 3l2.06.94L19 6z" fill="currentColor"></path></svg>
+          <div class="ellipsis">
+            <span>随笔</span>
+          </div>
+        </a>
+      </li></ul>
+</nav>
+
+
+<script src="/js/066f8989.js"></script>
+
+    </div>
+    <div class="bottom">
+      <cosy-tooltip id="button-preference" placement="right">
+        <span slot="content">
+          <span>偏好</span>
+          <cosy-short-key>⌘</cosy-short-key>
+          <cosy-short-key>p</cosy-short-key>
+        </span>
+        <cosy-icon bordered id="button-about-cosy-theme">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+            <g fill="none">
+              <path d="M8 6a2 2 0 1 0 0 4a2 2 0 0 0 0-4zM7 8a1 1 0 1 1 2 0a1 1 0 0 1-2 0zm3.618-3.602a.708.708 0 0 1-.824-.567l-.26-1.416a.354.354 0 0 0-.275-.282a6.072 6.072 0 0 0-2.519 0a.354.354 0 0 0-.275.282l-.259 1.416a.71.71 0 0 1-.936.538l-1.359-.484a.355.355 0 0 0-.382.095c-.569.627-1 1.367-1.262 2.173a.352.352 0 0 0 .108.378l1.102.931a.704.704 0 0 1 0 1.076l-1.102.931a.352.352 0 0 0-.108.378A5.986 5.986 0 0 0 3.53 12.02a.355.355 0 0 0 .382.095l1.36-.484a.708.708 0 0 1 .936.538l.258 1.416c.026.14.135.252.275.281a6.075 6.075 0 0 0 2.52 0a.353.353 0 0 0 .274-.281l.26-1.416a.71.71 0 0 1 .936-.538l1.359.484c.135.048.286.01.382-.095c.569-.627 1-1.367 1.262-2.173a.352.352 0 0 0-.108-.378l-1.102-.931a.703.703 0 0 1 0-1.076l1.102-.931a.352.352 0 0 0 .108-.378A5.985 5.985 0 0 0 12.47 3.98a.355.355 0 0 0-.382-.095l-1.36.484a.71.71 0 0 1-.111.03zm-6.62.58l.937.333a1.71 1.71 0 0 0 2.255-1.3l.177-.97a5.105 5.105 0 0 1 1.265 0l.178.97a1.708 1.708 0 0 0 2.255 1.3L12 4.977c.255.334.467.698.63 1.084l-.754.637a1.704 1.704 0 0 0 0 2.604l.755.637a4.99 4.99 0 0 1-.63 1.084l-.937-.334a1.71 1.71 0 0 0-2.255 1.3l-.178.97a5.099 5.099 0 0 1-1.265 0l-.177-.97a1.708 1.708 0 0 0-2.255-1.3L4 11.023a4.987 4.987 0 0 1-.63-1.084l.754-.638a1.704 1.704 0 0 0 0-2.603l-.755-.637c.164-.386.376-.75.63-1.084z" fill="currentColor"></path>
+            </g>
+          </svg>
+        </cosy-icon>
+      </cosy-tooltip>
+    </div>
+  </aside>
+  <main>
+    
+<link rel="stylesheet" href="/css/4dbc8f91.css">
+
+
+<div class="post-container">
+  <header>
+    <div class="left">
+      
+<link rel="stylesheet" href="/css/7d333f9e.css">
+
+<nav class="breadcrumb">
+  <section>
+    <cosy-tooltip placement="bottom-left">
+      <span slot="content"><span>首页</span>
+        <cosy-short-key>⌘</cosy-short-key>
+        <cosy-short-key>H</cosy-short-key>
+      </span>
+      <cosy-icon href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+          <g fill="none">
+            <path d="M8.998 2.388a1.5 1.5 0 0 1 2.005 0l5.5 4.942A1.5 1.5 0 0 1 17 8.445V15.5a1.5 1.5 0 0 1-1.5 1.5H13a1.5 1.5 0 0 1-1.5-1.5V12a.5.5 0 0 0-.5-.5H9a.5.5 0 0 0-.5.5v3.5A1.5 1.5 0 0 1 7 17H4.5A1.5 1.5 0 0 1 3 15.5V8.445c0-.425.18-.83.498-1.115l5.5-4.942zm1.336.744a.5.5 0 0 0-.668 0l-5.5 4.942A.5.5 0 0 0 4 8.445V15.5a.5.5 0 0 0 .5.5H7a.5.5 0 0 0 .5-.5V12A1.5 1.5 0 0 1 9 10.5h2a1.5 1.5 0 0 1 1.5 1.5v3.5a.5.5 0 0 0 .5.5h2.5a.5.5 0 0 0 .5-.5V8.445a.5.5 0 0 0-.166-.371l-5.5-4.942z" fill="currentColor"></path>
+          </g>
+        </svg>
+      </cosy-icon>
+    </cosy-tooltip>
+    
+    
+    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+      <g fill="none">
+        <path d="M7.733 4.207a.75.75 0 0 1 1.06.026l5.001 5.25a.75.75 0 0 1 0 1.035l-5 5.25a.75.75 0 1 1-1.087-1.034L12.216 10l-4.51-4.734a.75.75 0 0 1 .027-1.06z" fill="currentColor"></path>
+      </g>
+    </svg>
+    <a class="ellipsis" href="/categories/%E9%9A%8F%E7%AC%94/">
+      随笔
+    </a>
+    
+    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+      <g fill="none">
+        <path d="M7.733 4.207a.75.75 0 0 1 1.06.026l5.001 5.25a.75.75 0 0 1 0 1.035l-5 5.25a.75.75 0 1 1-1.087-1.034L12.216 10l-4.51-4.734a.75.75 0 0 1 .027-1.06z" fill="currentColor"></path>
+      </g>
+    </svg>
+    <a class="ellipsis" href="/categories/%E5%85%A8%E9%83%A8/">
+      全部
+    </a>
+    
+    
+    
+    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+      <g fill="none">
+        <path d="M7.733 4.207a.75.75 0 0 1 1.06.026l5.001 5.25a.75.75 0 0 1 0 1.035l-5 5.25a.75.75 0 1 1-1.087-1.034L12.216 10l-4.51-4.734a.75.75 0 0 1 .027-1.06z" fill="currentColor"></path>
+      </g>
+    </svg>
+    <span class="ellipsis">
+      Github 图床折腾手记
+    </span>
+    
+  </section>
+</nav>
+
+
+<script src="/js/31d6cfe0.js"></script>
+
+    </div>
+    <div class="right">
+      
+    </div>
+  </header>
+  <div class="content">
+    <main class="cosy-scrollbar">
+      <div class="article-container">
+        <!-- 渲染文章内容 -->
+        <article>
+          <!-- 文章标题 -->
+          <h1 class="post-title">Github 图床折腾手记</h1>
+          <div class="last-updated">
+            上次更新: 2024-10-01 21:57:58
+          </div>
+          <!-- 文章 -->
+          <p>图床，一个我个人经常使用，但是又没有固定选择的东西。</p>
+<p>之前尝试过 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/image">洛谷图床</a>，<a target="_blank" rel="noopener" href="https://www.imgse.com/">路过图床</a>，<a target="_blank" rel="noopener" href="https://sm.ms/">SM.MS</a> 等一些国内可以访问且相对知名的图床。</p>
+<p>洛谷图床主要是验证码很烦，储存空间也小，而且不支持读取剪贴板，所以最后就弃坑了。</p>
+<p>路过图床之前是我的主力图床，使用相当方便（除了有时候网站访问很慢），但是每天只能传 8 张图，日常使用还行，写题解（个人喜欢在题解里加入一堆图片），博客的时候完全不够用啊……</p>
+<p>所以后来发现了 SM.MS，同样很好用，服务器架在国外但是速度甚至比路过图床还快。没有上传数量限制，但是每个用户限制 5 GB 储存空间，完全够用，但是有个限制在哪就挺烦的……</p>
+<p><img src="https://chocolateater.github.io/PicHub/202409292036840.png" alt="image-20240929203605657"></p>
+<p><em>SM.MS 用户界面</em></p>
+<p>而且最重要的是以上所有图床都和 Typora&#x2F;TypeDown 不兼容…… 导致我得浏览器——编辑器来回切换……</p>
+<p>懒，而且嫌烦，所以最终，我找到了 PicGo。</p>
+<p><img src="https://chocolateater.github.io/PicHub/202409292035835.png"></p>
+<p><em>PicGo 用户界面</em></p>
+<p>第一次认识 PicGo 是在刚入坑 Github 的时候，那时候的主力 Markdown 编辑器还是 TypeDown，折腾过一天用于配置 PicGo，但是最后没成功。现在想想可能是当时开着加速器导致上传证书验证失败，而且那会儿也非常的愚蠢，报错了也没去百度，最后就不了了之了。</p>
+<p>后来，突发奇想，想整个 Typora 玩玩，但是没钱……</p>
+<p>所以又折腾了半天，手动破解了 Typora。然后发现能换主题欸 (╹ڡ╹ )，于是又花了半天翻找各种主题……</p>
+<p><del>我们颜值至上主义者是这样的</del></p>
+<p>最后的最后，我在 Typora 的设置里发现了这样的一小句话：</p>
+<p><img src="https://chocolateater.github.io/PicHub/202409292040158.png" alt="image-20240929204011114"></p>
+<p>当时不知道怎么就脑抽了…… 把 PicGo 下了回来。</p>
+<p>浅浅配置好之后就十分兴奋的上传了一张图片试试。</p>
+<p>不出意外，出意外了。</p>
+<p><img src="https://chocolateater.github.io/PicHub/202409292042905.png" alt="image-20240929204209862"></p>
+<p>不过起码会翻译了，跑去百度翻译一查，“无法验证第一证书”。</p>
+<p>第一反应是我的 Github Token 权限没配置好，所以最后把原来的 Fine-grained Token 换成了权限更高的 Classical Token（教程是这么说的……），顺带把能勾选的选项全勾上了。</p>
+<p>但回去，一看，还是不行，报错的提示都一样。</p>
+<p>算了，还得是度娘。</p>
+<p>查出来的结果也很离谱，居然是加速器的问题……</p>
+<p>把加速器关了就没这回事了。</p>
+<p>离谱。</p>
+<p>至此，我以为总算搞定了…… 随手就把 Typora 和 PicGo 绑上了。</p>
+<p>测试了一下，能上传，于是开始兴高采烈的搬迁图库。</p>
+<p>最后链接提出来一看，白干~</p>
+<p><img src="https://chocolateater.github.io/PicHub//202409292051438.png" alt="image-20240929205104261"></p>
+<p>学乖了，直接百度。</p>
+<p>结果是这个玩意儿需要梯子。</p>
+<p>我寻思梯子我有归我有，但最后这坨东西是要放洛谷上去的，总不能让每个看的人都先挂上梯子吧…… <del>看起来像是推销节点的</del></p>
+<blockquote>
+<p>由于一些不可抗力，请您在阅读本篇博客前准备好一个能够访问 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/">https://raw.githubusercontent.com</a> 的**，我们推荐您使用 **节点，0.3 KB&#x2F;S 带宽不限速，每月只要 999 ~ 注册时优惠邀请码记得填 **** ……</p>
+</blockquote>
+<p>听起来就离谱。</p>
+<p>所以当时我就想到一些奇技淫巧。</p>
+<p>比如，把这个图床包装成一个基于 Github Pages 的网站。</p>
+<p>正好<del>我会</del> Ai会 写 Ci（提交时运行的工作流），每次上传图片的时候自动部署，简单快捷，主要是不要动手，完全自动化。</p>
+<p>效果不错，PicGo 也可以自定义域名，结合起来运行的很流畅。</p>
+<p>唯一可惜是 Github 部署 Pages 需要一点时间，不过我觉得问题不大。</p>
+<p>至此，终于搞定了。</p>
+<p>虽然听起来挺少，但也折腾了我一个星期呢…… QAQ</p>
+<hr>
+<p>事实上，此前我还尝试过基于 TeleGraph 的自建图床，当时是被 <a target="_blank" rel="noopener" href="https://www.luogu.com/user/1056150">黑客少年</a> 的 <a target="_blank" rel="noopener" href="https://image.zhaohonghao-qwq.com/">图床</a> 忽悠入坑的，因为感觉还不错，而且据说储存空间无限，所以就心动了……</p>
+<p>网上扒了教程，注册了 CF 的账号，摸了一节课的鱼，算是把 <a target="_blank" rel="noopener" href="https://image-hub.pages.dev/">网站</a> 弄上线了。</p>
+<p>结果，上去一看，人麻了。</p>
+<p><img src="https://chocolateater.github.io/PicHub//202409292101442.png" alt="image-20240929210107498"></p>
+<p>后来一查 README，蚌埠住了。</p>
+<p><img src="https://chocolateater.github.io/PicHub//202409292101791.png"></p>
+<p>《论 Fork 不看 README 的一百种坏处》</p>
+<p>所以这个项目最后也流产了……</p>
+<p>不过我启用了自动与主仓库同步更新，希望有一天大佬们能修好吧……</p>
+
+            <div class="post-tags">
+              <!-- 文章tags -->
+              
+                
+                  <cosy-label href="/tags/%E6%8A%80%E6%9C%AF/" size="sm"># 技术</cosy-label>
+                  
+                  <cosy-label href="/tags/%E4%BB%A3%E7%A0%81/" size="sm"># 代码</cosy-label>
+                  
+                  <cosy-label href="/tags/%E5%9B%BE%E5%BA%8A/" size="sm"># 图床</cosy-label>
+                  
+                  <cosy-label href="/tags/Github/" size="sm"># Github</cosy-label>
+                  
+                    
+            </div>
+            <p class="motto">重拾纯粹的写作</p>
+        </article>
+        <!-- 评论 -->
+        <div id="vcomments"></div>
+        <div id="tcomment"></div>
+      </div>
+    </main>
+    <!-- toc -->
+    
+  </div>
+
+</div>
+
+<script>
+  window.page = {
+    use: 'twikoo,katex'
+  }
+  window.katex = {
+    enable: "",
+    jsCdn: "//cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js",
+    cssCdn: "//cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css"
+  }
+  window.mermaid = {
+    enable: "",
+    theme: "neutral",
+    cdn: "//cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js",
+  }
+  window.valine = {
+    enable: "",
+    appId: 'hFgyB3VOooemwe6OI2oQDcag-MdYXbMMI',
+    appKey: 'C53lzVdSMn3aZVG7yEu6ZocD',
+    avatar: 'monsterid',
+    cdn: '//unpkg.com/valine@latest/dist/Valine.min.js',
+    serverURLs: 'https://hfgyb3vo.api.lncldglobal.com'
+  };
+  window.twikoo = {
+    enable: "",
+    envId: "https://twikoo-phi-sable.vercel.app",
+    cdn: 'https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js',
+    lang: 'zh-CN',
+  }
+</script>
+
+
+<script src="/js/8f5fa89f.js"></script>
+
+  </main>
+</body>
+
+<script>
+  window.theme = {
+    color: 'hsl(238,50%,56%)'
+  }
+</script>
+
+
+<script src="/js/e5a59732.js"></script>
+
+
+</html>
