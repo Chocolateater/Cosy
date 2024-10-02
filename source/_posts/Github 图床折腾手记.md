@@ -11,7 +11,7 @@ tags:
 - Github
 title: Github 图床折腾手记
 updated: '2024-10-01T21:57:58.529+08:00'
-use: valine,katex
+use: twikoo,katex
 ---
 图床，一个我个人经常使用，但是又没有固定选择的东西。
 

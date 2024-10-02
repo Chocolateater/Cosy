@@ -9,7 +9,7 @@ tags:
 - 软件
 title: Markdown 编辑器进化史
 updated: '2024-10-01T21:58:13.200+08:00'
-use: valine,katex
+use: twikoo,katex
 ---
 其实我一般用 Markdown 写东西写得很少。
 
