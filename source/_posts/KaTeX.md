@@ -1,18 +1,15 @@
 ---
+abbrlink: katex
+categories: []
+date: '2024-10-02T19:07:01.767208+08:00'
+tags: []
 title: KaTeX
-date: 2024-10-02 19:21:09
-use: katex,mermaid,twikoo
-categories:
-- javascript
-tags: 
-- 编程
-- JavaScript
+updated: '2024-10-02T19:07:36.969+08:00'
+use: katex
 ---
+$$
+A+B
+$$
 
-$E=mc^2$
 
-$$x > y$$
-
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-                    
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
+$ A+B $
