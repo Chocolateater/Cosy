@@ -13,13 +13,17 @@ favicon: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/
 # 基佬紫，天下无敌
 color: hsl(238,50%,56%)
 motto: "Hello, world!"
+
 katex:
   jsCdn: //cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js
   cssCdn: //cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css
+
+# 文章流程图，默认主题：neutral
+# mermaid
 mermaid:
-  # 默认使用 neutral，可选配置：default | dark | forest | neutral
-  theme: neutral
+  # Available themes: default | dark | forest | neutral，default theme is neutral
   cdn: //cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js
+
 valine:
   # 替换
   appId: hFgyB3VOooemwe6OI2oQDcag-MdYXbMMI

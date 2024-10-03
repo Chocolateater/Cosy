@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    友链
+    QwQ Blog
   </title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="QwQ">
-  <link rel="canonical" href="https://chocolateater.github.io/2024/10/02/%E5%8F%8B%E9%93%BE/">
+  <link rel="canonical" href="https://chocolateater.github.io">
   
   
   <link rel="icon" type="image/svg" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none"><path d="M6.087 9.75a5.752 5.752 0 0 1 11.326 0h.087a4 4 0 0 1 0 8H6a4 4 0 0 1 0-8h.087z" fill="currentColor"></path></g></svg>'>
@@ -94,7 +94,7 @@
           <div class="ellipsis">简历</div>
         </a>
       </li></ul>
-  <ul><li class="">
+  <ul><li class="active">
         <a href="/categories/javascript/">
           
           <div class="ellipsis">
@@ -141,10 +141,12 @@
   </aside>
   <main>
     
-<link rel="stylesheet" href="/css/4dbc8f91.css">
+<link rel="stylesheet" href="/css/32fa10f2.css">
 
 
-<div class="post-container">
+
+
+<div class="category">
   <header>
     <div class="left">
       
@@ -166,15 +168,15 @@
       </cosy-icon>
     </cosy-tooltip>
     
-    
     <svg class="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
       <g fill="none">
         <path d="M7.733 4.207a.75.75 0 0 1 1.06.026l5.001 5.25a.75.75 0 0 1 0 1.035l-5 5.25a.75.75 0 1 1-1.087-1.034L12.216 10l-4.51-4.734a.75.75 0 0 1 .027-1.06z" fill="currentColor"></path>
       </g>
     </svg>
     <span class="ellipsis">
-      友链
+      javascript
     </span>
+    
     
   </section>
 </nav>
@@ -182,72 +184,55 @@
 
 <script src="/js/31d6cfe0.js"></script>
 
+      <!-- 筛选 -->
+      <cosy-button type="dashed" id="filter-button">
+        <svg slot="prefix" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+          <g fill="none">
+            <path d="M7.5 13h5a.5.5 0 0 1 .09.992L12.5 14h-5a.5.5 0 0 1-.09-.992L7.5 13h5h-5zm-2-4h9a.5.5 0 0 1 .09.992L14.5 10h-9a.5.5 0 0 1-.09-.992L5.5 9h9h-9zm-2-4h13a.5.5 0 0 1 .09.992L16.5 6h-13a.5.5 0 0 1-.09-.992L3.5 5h13h-13z" fill="currentColor"></path>
+          </g>
+        </svg>
+        <span slot="content">筛选</span>
+      </cosy-button>
     </div>
-    <div class="right">
+    <div class="center">
+      <!-- 分页代码 -->
       
     </div>
   </header>
-  <div class="content">
-    <main class="cosy-scrollbar">
-      <div class="article-container">
-        <!-- 渲染文章内容 -->
-        <article>
-          <!-- 文章标题 -->
-          <h1 class="post-title">友链</h1>
-          <div class="last-updated">
-            上次更新: 2024-10-02 13:22:47
-          </div>
-          <!-- 文章 -->
-          
-            <div class="post-tags">
-              <!-- 文章tags -->
-              
-            </div>
-            <p class="motto">重拾纯粹的写作</p>
-        </article>
-        <!-- 评论 -->
-        <div id="vcomments"></div>
-        <div id="tcomment"></div>
-      </div>
-    </main>
-    <!-- toc -->
+
+  <!-- 分类文章列表 -->
+  <ul class="post-list cosy-scrollbar">
     
-  </div>
+    <li data-status="">
+      <a href="/2024/10/02/KaTeX/">
+        
+        <p class="ellipsis">
+          <span>KaTeX</span>
+          <!-- <cosy-tooltip placement="bottom-left" max-width="250px">
+            <span slot="content">$E&#x3D;mc^2$
+$$x &gt; y$$
+$$(\sqrt{3x-1}+(1+x)^2)$$
+$$\sin(</span>
+            <span></span>
+          </cosy-tooltip> -->
+
+        </p>
+        <span class="post-date">
+          
+          <cosy-tooltip placement="left">
+            <span slot="content">创建于: 2024-10-02 19:21:09</span>
+            Oct 02
+          </cosy-tooltip>
+        </span>
+      </a>
+    </li>
+    
+  </ul>
 
 </div>
 
-<script>
-  window.page = {
-    use: ''
-  }
-  window.katex = {
-    enable: "",
-    jsCdn: "//cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js",
-    cssCdn: "//cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css"
-  }
-  window.mermaid = {
-    enable: "",
-    theme: "",
-    cdn: "//cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js",
-  }
-  window.valine = {
-    enable: "",
-    appId: 'hFgyB3VOooemwe6OI2oQDcag-MdYXbMMI',
-    appKey: 'C53lzVdSMn3aZVG7yEu6ZocD',
-    avatar: 'monsterid',
-    cdn: '//unpkg.com/valine@latest/dist/Valine.min.js',
-    serverURLs: 'https://hfgyb3vo.api.lncldglobal.com'
-  };
-  window.twikoo = {
-    enable: "",
-    envId: "https://twikoo-phi-sable.vercel.app",
-    cdn: 'https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js',
-    lang: 'zh-CN',
-  }
-</script>
 
-
-<script src="/js/8f5fa89f.js"></script>
+<script src="/js/eaf89be7.js"></script>
 
   </main>
 </body>
